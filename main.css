@@ -17,10 +17,10 @@ body{
     align-items: center;
     background-image: 
     url('groundt.png');
-    
     background-size: cover;
     background-position: center; /* Center the image horizontally and vertically */
     background-repeat: no-repeat;
+    padding-bottom: 50px;
 
 }
 
@@ -94,7 +94,7 @@ a{
     font-size: 40px;
 }
 
-.footer{
+.bobox{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -344,7 +344,18 @@ a{
   }
 
 
+footer{
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    height: 100px;
 
+    justify-content: CENTER;
+    color: white;
+}
 
+footer p{
+
+}
 
 
